@@ -1,0 +1,9 @@
+import '../controller/chooseblood_controller.dart';
+import 'package:get/get.dart';
+
+class ChoosebloodBinding extends Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut(() => ChoosebloodController());
+  }
+}
